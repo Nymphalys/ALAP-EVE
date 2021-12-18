@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="heading"><h1>Edit event details:</h1></div>
+    <div class="form">
+        <form action="temp.html">
+            <label for="event_name"></label>
+            <input type="text" id="event_name" placeholder="Enter event name">  
+            <label for="club_name" >Organised by:</label>
+            <select id="club_name">
+                <option>--Choose Club Name--</option>
+                <option>Technical Board</option>
+                <option>Cultural Board</option>
+                <option>Sports Club</option>
+                <option>CEAR Club</option>
+                <option>Magazine Board
+                <option>SAE Club</option>
+                <option>Spiritual Club</option>
+                <option>OSS Club</option>
+                <option>NSS Club</option>
+                <option>Fine Arts Club</option>
+                <option>Public Relations Club</option>
+                <option>Social Media Cell</option>
+                <option>DDQ Club</option>
+                <option>Maths Club</option>
+                <option>Nature Club</option>
+                <option>Radio Club</option>
+                <option>ISDF Club</option>
+                <option>Coding Club (CP)</option>
+                <option>GDSC Club</option>
+                <option>Entrepreneurship Cell (E-Cell)</option>
+                <option>Electric Vehicle Cell (EV-Cell)</option>
+            </select>
+            <br>
+            <hr>
+            <div id="begin">Begins:</div><input type="date" id="bd"><input type="time" id="bt">
+            <br>
+            <div id="end">Ends:</div><input type="date" id="ed"><input type="time" id="et">
+            <hr>
+            <!-- <div class="venue" placeholer="Venue/Meet Link:"></div> -->
+                <!-- <input type="radio" class="ven" id="opt1" name="venue"><div class="ven">Online</div>
+                <input type="radio" class="ven2" id="opt2" name="venue"><div class="ven2">Offline</div> -->
+            <div class="meet_link"><textarea placeholer="Venue/Meet Link:" name="" id="m_link" cols="50" rows="2"></textarea></div>  
+            <hr>
+            <label for="description"></label>
+            <textarea id="description" cols="50" rows="5" placeholder="Enter brief description of your event"></textarea>
+            <hr>
+            <label for="rules"></label>
+            <textarea id="rules" cols="50" rows="5" placeholder="Enter rules and intructions"></textarea>
+            <hr>
+            <label for="participation_form"></label>
+            <textarea id="participation_form" cols="64" rows="1.7" placeholder="Give link for participation form"></textarea>
+            <hr>
+            <div id="sponsors">
+                <textarea class="sponsor" cols="45" id="sponsor1" rows="2" placeholder="Sponsor 1"></textarea>
+                <img id="plus1" class="plus" src="add.png" alt=""><img src="trash.png"class="del" id ="del1" alt="">
+                <textarea class="sponsor" cols="45" id="sponsor2" rows="2" placeholder="Sponsor 2"></textarea><img id="plus2" class="plus" src="add.png" alt="">
+                <img src="trash.png" class="del" id ="del2" alt="">
+                <textarea class="sponsor" cols="45" id="sponsor3" rows="2" placeholder="Sponsor 3"></textarea><img id="plus3" class="plus" src="add.png" alt="">
+                <img src="trash.png" class="del" id ="del3" alt="">
+            </div>
+            <hr>
+            <label for="prizes"></label>
+            <textarea id="prizes" cols="50" rows="3" placeholder="Prizes and rewards"></textarea>
+            <hr>
+            <div> <a id="but" href="temp.html"> Submit </a></div>
+        </form>
+    </div>    
+</body>
+<script src="editForm.js"></script>
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-image:url(template.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    top:40px;
+}
+.form{
+    height:450px; width:550px;
+    margin:auto;
+    padding-right: 15%;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    position:fixed;
+    top:200px; left:310px; bottom:60px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+input[type=text]{
+    width:400px;height: 30px;
+    border:none;
+    border-bottom:3px solid brown;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+form>div{
+    display: inline;
+}
+hr{
+    height:2px;width: 403px;
+    background-color: brown;
+}
+#club_name{
+    position:relative;
+    left:200px; bottom:20px;
+    height: 25px; width:190px;
+}
+#club_name:hover, #club_name:focus {
+    color: rgb(15, 15, 15);
+    background-color: #faf4de;
+  }
+#bd{
+    position: relative;
+    left: 135px;
+}
+#bt{
+    position:relative;
+    left:330px;
+    bottom:24px;
+}
+#ed{
+    position: relative;
+    left: 146px;
+}
+#et{
+    position:relative;
+    left: 149px;
+}
+form>div{
+    display: inline;
+}
+.ven{
+    position:relative;
+    left: 150px;
+}
+.ven2{
+    position: relative;
+    left:190px;
+}
+textarea{
+    margin-left: 3px;
+    margin-top: 6px;
+    border:none;
+    resize: none;
+    background-color: transparent;
+}
+#sponsors{
+    display:block;
+    height: 43px;width:500px;
+    overflow: hidden;
+}
+.plus{
+    width: 25px;
+    position:relative;
+    left:30px;bottom:15px;
+}
+.del{
+    width:20px;
+    position:relative;
+    right:15px; bottom:17px;
+}
+#but{
+    display: flex;
+    height: 40px;
+    width: 140px;
+    border-radius: 7%;
+    margin-top: 30px;
+    background-color:brown;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    line-height: 40px;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(211, 207, 202);
+}
+::-webkit-scrollbar-corner{
+    visibility: hidden;
+}
+
+
+
