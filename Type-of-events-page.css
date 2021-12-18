@@ -1,0 +1,119 @@
+body {
+    background-color: #194350;
+    color: #fae4e4;
+    font-family: Montserrat,Roboto, Segoe UI !important;
+    margin: 0px;
+}
+
+
+
+.type-of-event-text{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    padding-top: 120px;
+    justify-content: center;
+}
+
+.type-of-event-text h1{
+    margin: 0px;
+    font-weight: 100;
+}
+
+.type-of-event-text-cards{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding-top:100px
+}
+.type-of-event-text-cards .worshops-card{
+    
+    display: flex;
+    height: 400px;
+    width: 20%;
+    flex-direction: column;
+}
+
+.type-of-event-text-cards .worshops-card .worshop-cicle-area{
+    background-color: #ff8882;
+    border-radius: 100%;
+    text-align: center;
+    width:60%;
+    height:60%;
+    margin: auto;
+}
+
+.type-of-event-text-cards .worshops-card .description-box{
+    background-color: #fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border-radius: 2%;
+    outline: 2px solid #ffc2b4;
+    outline-offset: -5px ;
+}
+
+.type-of-event-text-cards .competitions-card{
+    display: flex;
+    height: 400px;
+    width: 20%;
+    flex-direction: column;
+}
+
+.type-of-event-text-cards .competitions-card .competitions-cicle-area{
+    background-color: #9dbeb9;
+    border-radius: 100%;
+    text-align: center;
+    width:60%;
+    height:60%;
+    margin: auto;
+}
+
+.type-of-event-text-cards .competitions-card .description-box{
+    background-color:#fff;
+    display: flex;
+    height:300px;
+    width: 100%;
+    border-radius: 2%;
+    outline: 2px solid #9dbeb9;
+    outline-offset: -5px ;
+}
+
+.type-of-event-text-cards .guest-lectures-card{
+    display: flex;
+    height: 400px;
+    width: 20%;
+    flex-direction: column;
+}
+
+.type-of-event-text-cards .guest-lectures-card .guest-lectures-cicle-area{
+    background-color: #ffc2b4;
+    border-radius: 100%;
+    text-align: center;
+    width:60%;
+    height:60%;
+    margin: auto;
+}
+.type-of-event-text-cards .guest-lectures-card .description-box{
+    background-color:#fff;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border-radius: 2%;
+    outline: 2px solid #ffc2b4;
+    outline-offset: -5px ;
+    
+}
+
+/* first card */
+
+
+
+/* second  area */
+
+
+
+/* third area */
+
+
+
