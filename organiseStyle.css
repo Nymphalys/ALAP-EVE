@@ -332,3 +332,137 @@ nav{
     --show : hidden !important;
     transition-duration: 0.7s;
 }
+
+/*//////////////////////////ANIMATION////////////////////////*/
+
+.navbar {
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:1000ms;
+}
+
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.circleCreateEvent{
+    animation: fadeLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay:800ms;
+}
+
+@keyframes fadeLeft {
+    from{
+        opacity: 0;
+        transform: translateX(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
+.circleLiveEvent{
+    animation: fadeDown 1000ms forwards;
+    opacity: 0;
+}
+
+@keyframes fadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+        animation-delay:1000ms;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+    
+
+.circleManageEvent{
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:800ms;
+}
+
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+
+/*//////////////////////////SECTION 2 ANIMATION////////*/
+
+.circleOfficialEvent{
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:800ms;
+}
+
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+
+.circleClubEvent{
+    animation: fadeDown 1000ms forwards;
+    opacity: 0;
+}
+
+@keyframes fadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+        animation-delay:1000ms;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.circleMiscEvent{
+    animation: fadeLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay:800ms;
+}
+
+@keyframes fadeLeft {
+    from{
+        opacity: 0;
+        transform: translateX(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
