@@ -224,3 +224,59 @@ h3.card-title{
         font-size: 2vw;
     }
 }
+
+/*//////////////////////////ANIMATION////////////////////////*/
+
+.navbar {
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:2000ms;
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.Landing-page  .illustrations  .Landing-page-Illustration{
+    animation: fadeDown 1500ms forwards;
+    opacity: 0;
+    animation-delay:500ms;
+}
+
+@keyframes fadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }    
+}
+
+.Landing-page .buttonBoxes {
+    animation: fadeLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay:1200ms;
+}
+
+@keyframes fadeLeft {
+    from{
+        opacity: 0;
+        transform: translateX(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
