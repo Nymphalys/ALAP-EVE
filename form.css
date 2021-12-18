@@ -25,7 +25,7 @@ h1{
 input[type=text]{
     width:400px;height: 30px;
     border:none;
-    border-bottom:3px solid brown;
+    border-bottom:3px solid #e1bf9c;
     margin-bottom: 8px;
     background-color: transparent;
 }
@@ -34,7 +34,7 @@ form>div{
 }
 hr{
     height:2px;width: 403px;
-    background-color: brown;
+    background-color: #e1bf9c;
 }
 #club_name{
     position:relative;
