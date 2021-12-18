@@ -15,7 +15,7 @@
 .Box1{
     box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
     height: 500px;
-    width: calc( 30vw - 20px );
+    width: calc( 26vw - 20px );
     margin: 0px, 15px;
     background-color:hsl(10, 100%, 91%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -30,7 +30,7 @@
 .Box2{
     box-shadow:0 0px 0px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
     height: 500px;
-    width: calc( 30vw - 20px );
+    width: calc( 26vw - 20px );
     margin: 0px, 15px;
     background-color:hsl(180, 100%, 30%);
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
