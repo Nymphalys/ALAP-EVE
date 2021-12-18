@@ -1,0 +1,79 @@
+.box-shadow1{
+    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
+    height: 550px;
+    width:450px;
+    margin: 0px, 15px;
+    position: relative;
+    top:5px;
+    left:50px;
+    background-color:hsl(10, 100%, 91%);;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:60px;
+    color:black;
+    text-align: center;
+    
+}
+.box-shadow1:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
+.heading1{
+    line-height: 10px;
+    position: absolute;
+    top:20px;
+    left:140px;;
+    font-size: 15px;
+}
+.paragraph1{
+    position: absolute;
+    top:160px;
+    left:30px;
+    font-size: 20px;
+    text-align: left;
+}
+.box-shadow2{
+    box-shadow:5px 10px 10px rgba(215,215,215,0.10),0 10px 20px rgba(0,0,0,0.09) ;
+    height: 300px;
+    width:600px;
+    margin: 10px, 15px;
+    border-radius: 15px;
+    background-color: rgb(133, 245, 245);
+    position: absolute;
+    bottom:270px;
+    left:600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    color:black;
+    text-align: center;
+
+}
+.box-shadow2:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
+.heading2{
+    font-size: 35px;
+    text-align: left;
+}
+.button {
+    background-color: burlywood;
+    color: black;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    position: relative;
+    bottom:120px;
+    left:800px
+}
+.button:hover{
+    transform: scale(105%,105%);
+    transition-duration: 0.5s;
+}
+.heading3{
+    font-size: 25px;
+    padding: 10px 10x;
+    margin:10px 10px;
+}

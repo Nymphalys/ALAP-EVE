@@ -39,6 +39,9 @@ document.getElementById("del3").addEventListener('click',function(){
         document.getElementById("sponsors").style.height="90px";
     }
 })
+// function store(a,b){
+//     localStorage.setItem("a",document,getElementById("b").value)
+// }
 
 document.getElementById("but").addEventListener('click',function(){
     localStorage.setItem("n",document.getElementById("event_name").value)
@@ -54,8 +57,5 @@ document.getElementById("but").addEventListener('click',function(){
     localStorage.setItem("s2",document.getElementById("sponsor2").value)
     localStorage.setItem("s3",document.getElementById("sponsor3").value)
     localStorage.setItem("rule",document.getElementById("rules").value)
-    localStorage.setItem("ven",document.getElementById("venue").value)
-
-    localStorage.setItem("pass",passcode)
-
+    localStorage.setItem("ven",document.getElementById("m_link").value)
 })
