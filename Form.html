@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <div class="heading"><h1>Edit event details:</h1></div>
+    <div class="heading"><h1>Fill event details:</h1></div>
     <div class="form">
         <form action="temp.html">
             <label for="event_name"></label>
@@ -44,10 +44,10 @@
             <br>
             <div id="end">Ends:</div><input type="date" id="ed"><input type="time" id="et">
             <hr>
-            <!-- <div class="venue" placeholer="Venue/Meet Link:"></div> -->
+            <!-- <div class="venue">Venue:</div> -->
                 <!-- <input type="radio" class="ven" id="opt1" name="venue"><div class="ven">Online</div>
                 <input type="radio" class="ven2" id="opt2" name="venue"><div class="ven2">Offline</div> -->
-            <div class="meet_link"><textarea placeholer="Venue/Meet Link:" name="" id="m_link" cols="50" rows="2"></textarea></div>  
+                <div class="meet_link"><textarea placeholder="Venue/Meet Link:" name="" id="m_link" cols="50" rows="2"></textarea></div>
             <hr>
             <label for="description"></label>
             <textarea id="description" cols="50" rows="5" placeholder="Enter brief description of your event"></textarea>
@@ -60,7 +60,7 @@
             <hr>
             <div id="sponsors">
                 <textarea class="sponsor" cols="45" id="sponsor1" rows="2" placeholder="Sponsor 1"></textarea>
-                <img id="plus1" class="plus" src="add.png" alt=""><img src="trash.png"class="del" id ="del1" alt="">
+                <img id="plus1" class="plus" src="add.png" alt="">
                 <textarea class="sponsor" cols="45" id="sponsor2" rows="2" placeholder="Sponsor 2"></textarea><img id="plus2" class="plus" src="add.png" alt="">
                 <img src="trash.png" class="del" id ="del2" alt="">
                 <textarea class="sponsor" cols="45" id="sponsor3" rows="2" placeholder="Sponsor 3"></textarea><img id="plus3" class="plus" src="add.png" alt="">
@@ -70,10 +70,9 @@
             <label for="prizes"></label>
             <textarea id="prizes" cols="50" rows="3" placeholder="Prizes and rewards"></textarea>
             <hr>
-            <div> <a id="but" href="temp.html"> Submit </a></div>
-            <!-- <a id="reset" href="">Reset</a>
+            <div> <a id="but" href="temp.html"> Create Event </a></div>
         </form>
     </div>    
 </body>
-<script src="editForm.js"></script>
+<script src="script.js"></script>
 </html>
