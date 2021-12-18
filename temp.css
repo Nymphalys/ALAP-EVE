@@ -1,0 +1,33 @@
+body{
+    background-image:url(template.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+a{
+    display: flex;
+    height: 40px;
+    width: 140px;
+    border-radius: 7%;
+    margin-top: 30px;
+    background-color:brown;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    line-height: 40px;
+}
+#edit,#manage{
+    position:fixed;
+    top: 500px;
+}
+#edit{
+    left:400px;
+}
+#manage{
+    left:700px;
+}
+h1{
+    position:relative;
+    top: 200px;
+    text-align: center;
+}
