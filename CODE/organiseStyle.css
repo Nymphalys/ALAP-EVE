@@ -354,11 +354,12 @@ nav{
 } 
 
 .circleCreateEvent{
-    animation: fadeRight 1000ms forwards;
+    animation: fadeLeft 1200ms forwards;
     opacity: 0;
+    animation-delay:800ms;
 }
 
-@keyframes fadeRight {
+@keyframes fadeLeft {
     from{
         opacity: 0;
         transform: translateX(+20px);
@@ -373,14 +374,13 @@ nav{
 .circleLiveEvent{
     animation: fadeDown 1000ms forwards;
     opacity: 0;
-    
 }
 
 @keyframes fadeDown {
     from{
         opacity: 0;
         transform: translateY(-20px);
-        animation-delay:800ms;
+        animation-delay:1000ms;
     }
 
     to{
@@ -389,22 +389,26 @@ nav{
     }
 } 
 
+    
+
 .circleManageEvent{
-    animation: fadeRight 1200ms forwards;
+    animation: fadeUp 1000ms forwards;
     opacity: 0;
+    animation-delay:800ms;
 }
 
-@keyframes fadeRight {
+@keyframes fadeUp {
     from{
         opacity: 0;
-        transform: translateX(+20px);
+        transform: translateY(+20px);
     }
 
     to{
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 } 
+
 
 /*//////////////////////////SECTION 2 ANIMATION////////*/
 
