@@ -1,3 +1,9 @@
+:root{
+    --lightPink : rgb(255, 194, 180);
+    --darkPink : #FF8882;
+    --darkTeal : #194350;
+    --lightTeal : #9DBEB9;
+}
 .box-shadow1{
     box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
     height: 550px;
@@ -65,7 +71,7 @@
     border-radius: 16px;
     position: absolute;
     top:1000px;
-    left:800px
+    left:700px
 }
 .button:hover{
     transform: scale(105%,105%);
@@ -76,33 +82,94 @@
     font-size: 25px;
     
 }
+.box-shadow3{
+    box-shadow:5px 10px 10px rgba(215,215,215,0.10),0 10px 20px rgba(0,0,0,0.09) ;
+    height: 300px;
+    width:600px;
+    margin: 10px, 15px;
+    border-radius: 15px;
+    background-color: rgb(133, 245, 245);
+    position: absolute;
+    top:50px;
+    left:600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    color:black;
+    text-align: center;
+}
+.box-shadow3:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
 .heading4{
     position:absolute;
     font-size: 45px;
-    left:800px;
-    bottom:490px;
+    left:170px;
+    bottom:200px;
 }
 .paragraph2{
     position:absolute;
     font-size: 25px;
-    left:550px;
-    top:100px;
+    left:60px;
+    top:60px;
 }
 .paragraph3{
     position:absolute;
     font-size: 25px;
-    left:550px;
-    top:170px;
+    left:60px;
+    top:160px;
 }
 .paragraph4{
     position:absolute;
-    font-size: 25px;
-    left:550px;
-    top:240px;
+    font-size: 20px;
+    left:60px;
+    top:60px;
 }
 .paragraph5{
     position:absolute;
-    font-size: 25px;
-    left:550px;
-    top:310px;
+    font-size: 20px;
+    left:60px;
+    top:160px;
 }
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar div{
+    background-color: var(--lightPink);
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+.superContainer{
+    display: flex;
+    flex-direction: column;
+}
+
