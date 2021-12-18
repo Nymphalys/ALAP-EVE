@@ -58,4 +58,7 @@ document.getElementById("but").addEventListener('click',function(){
     localStorage.setItem("s3",document.getElementById("sponsor3").value)
     localStorage.setItem("rule",document.getElementById("rules").value)
     localStorage.setItem("ven",document.getElementById("m_link").value)
+
+    var passcode= Math.floor((Math.random() * 1000000) + 1);
+    localStorage.setItem("passc",passcode)
 })
