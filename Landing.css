@@ -13,6 +13,9 @@
     --darkTeal : #194350;
     --lightTeal : #9DBEB9;
 }
+body{
+    background-color: rgba(255, 194, 180, 0.4);
+}
 a:link {
     text-decoration: none;
     color: black;
@@ -151,215 +154,73 @@ nav{
 
 /* ////////////////////////// Join Events Section ///////////////////////////////////////////////////////////////// */
 
-
-
-h4{
-    position: relative;
-    bottom:670px;
-    left:200px;
+#cardsPage{
+    height: 100vh;
 }
-h5{
-    position: relative;
-    bottom:690px;
-    left:200px;
-}
-.box{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width:fit-content;
-    height:fit-content;
-    
-}
-.box:hover{    
-    transform: scale(105%,105%);
-    transition-duration: 0.5s;
-}
-
-
-.cardsPage{
-    width: 100vw;
+#eventSet1{
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     overflow-x: scroll;
 }
-.card1-content{
-    position:relative;
-    top:1000px;
-    right:20px;
+.event{
+    min-width: calc(100vw/3);
 }
-.card1-content1{
+.eventOdd > div > div{
     position: relative;
-    top:140px;
-    left:180px;
-    opacity: 0.7;
-    font-size: 14px;
-    line-height: 4px;
+    text-align: end;
+    bottom: -140px;
 }
-.card2-content1{
+.eventOdd{
     position: relative;
-    top:240px;
-    left:450px;
-    opacity: 0.7;
-    font-size: 13px;
-    line-height: 4px;
+    bottom: -100px;
 }
-.card2-content{
-    position: relative;
-    top:1100px;
-    left:250px;
+h4.card-title{
+    font-size: 1.8vw;
 }
-.card3-content{
-    position: relative;
-    top:720px;
-    left:650px;
+h3.card-title{
+    font-size: 1.6vw;
 }
-.card3-content1{
-    position: relative;
-    bottom:145px;
-    left:850px;
-    opacity: 0.7;
-    font-size: 13px;
-    line-height: 4px;
-}
-.card4-content{
-    position: relative;
-    top:830px;
-    left:1000px;
-}
-.card4-content1{
-    position: relative;
-    bottom:40px;
-    left:1200px;
-    opacity: 0.7;
-    font-size: 14px;
-    line-height: 4px;
-}
-.card5-content{
-    position: relative;
-    top:330px;
-    left:1300px;
-}
-.card5-content1{
-    position: relative;
-    bottom:530px;
-    left:1500px;
-    opacity: 0.7;
-    font-size: 14px;
-    line-height: 4px;
-}
-.card6-content{
-    position: relative;
-    top:550px;
-    left:1700px;
-}
-.card6-content1{
-    position: relative;
-    bottom:320px;
-    left:1900px;
-    opacity: 0.7;
-    font-size: 14px;
-    line-height: 4px;
-}
-.box1{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1000px;
-    left:190px;
-    color:white;
-}
-.box2{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1300px;
-    right:500px;
-    color:white;
-}
-.box3{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1000px;
-    right:160px;
-    color:white;
-}
-.box4{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1300px;
-    left:1220px;
-    color:white;
-}
-.box5{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1000px;
-    left:1570px;
-    color:white;
-}
-.box6{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    width: 230px;
-    height: 250px;
-    background-color: rgba(151, 145, 145, 0.4);
-    text-align:center;
-    font-size:25px;
-    position: relative;
-    top:1300px;
-    left:1930px;
-    color:white;
-}
-.container{
-  width: 225px;
-  height: 308px;
-  position:absolute;
-  transform:translate(-50%,-50%);
-  box-shadow: 0 10px 20px rgb(red,green,blue)
+.card-text{
+    font-size: 1.2vw;
 }
 
-.overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    opacity:0;
-    transition:opacity 0.4s ease-in-out;
-    background:black;
-    cursor: pointer;
+@media screen and (max-width: 830px) {
+    #eventSet1{
+        flex-wrap: wrap;
+        overflow-x: visible;
+        width: auto;
+    }
+    .event{
+        width: calc(100vw / 2);
+    }
+    .eventOdd{
+        bottom: 0px;
+    }
 }
-.content{
-    position: absolute;
-    top: 45%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    color:white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
+@media screen and (max-width: 500px) {
+    #eventSet1{
+        flex-wrap: wrap;
+        overflow-x: visible;
+        width: auto;
+        justify-content: center;
+    }
+    .event{
+        width: calc(90vw);
+        margin-bottom: 20px;
+    }
+    .eventOdd{
+        bottom: 0px;
+    }
+    h4.card-title{
+        font-size: 3vw;
+    }
+    h3.card-title{
+        font-size: 2.5vw;
+    }
+    .card-text{
+        font-size: 2vw;
+    }
 }
-.container:hover .overlay{
-    opacity:0.8;
-}
-
-
-
