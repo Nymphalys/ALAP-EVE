@@ -5,7 +5,48 @@ body {
     margin: 0px;
 }
 
-
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:  #194350;
+}
+.navbar div{
+    background-color: var(--lightPink);
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+.superContainer{
+    display: flex;
+    flex-direction: column;
+}
 
 .type-of-event-text{
     display: flex;
@@ -24,7 +65,7 @@ body {
     display: flex;
     justify-content: center;
     gap:50px;
-    padding-top:100px
+    padding-top:40px;
 }
 
 
@@ -43,9 +84,10 @@ body {
     background-color: #ff8882;
     border-radius: 100%;
     text-align: center;
-    width:70%;
+    width:65%;
     height:50%;
     margin: auto;
+    line-height: 12;
 }
 
 
@@ -59,6 +101,8 @@ body {
     border-radius: 2%;
     outline: 2px solid #ffc2b4;
     outline-offset: -5px ;
+    padding-left: 20px;
+    padding-top: 20px;
 
 }
 
@@ -73,9 +117,10 @@ body {
     background-color: #9dbeb9;
     border-radius: 100%;
     text-align: center;
-    width:70%;
+    width:65%;
     height:50%;
     margin: auto;
+    line-height: 12;
 }
 
 .type-of-event-text-cards .competitions-card .description-box{
@@ -86,6 +131,8 @@ body {
     border-radius: 2%;
     outline: 2px solid #9dbeb9;
     outline-offset: -5px ;
+    padding-left: 20px;
+    padding-top: 20px;
 
 }
 
@@ -100,9 +147,10 @@ body {
     background-color: #ffc2b4;
     border-radius: 100%;
     text-align: center;
-    width:70%;
+    width:65%;
     height:50%;
     margin: auto;
+    line-height: 12;
 }
 .type-of-event-text-cards .guest-lectures-card .description-box{
     background-color:#fff;
@@ -112,32 +160,14 @@ body {
     border-radius: 2%;
     outline: 2px solid #ffc2b4;
     outline-offset: -5px ;
+    padding-left: 20px;
+    padding-top: 20px;
 
     
 }
-.content area .content{
-    background-color: #172
-}
 
 
-.content area { 
-    max-height: 0px; 
-    overflow: hidden; 
-    transition: max-height .25s ease-in-out; 
-} 
-.toggle:checked + .content area { 
-    max-height: 350px;
-}
-.toggle:checked { 
-    border-bottom-right-radius: 0; 
-    border-bottom-left-radius: 0; 
-} 
-.content area .content { 
-    background: rgba(0, 105, 255, .2); 
-    border-bottom: 1px solid rgba(0, 105, 255, .45); 
-    border-bottom-left-radius: 7px; 
-    border-bottom-right-radius: 7px; 
-    padding: .5rem 1rem; }
+
 
 
 
