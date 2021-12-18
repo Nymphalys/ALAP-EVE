@@ -165,7 +165,12 @@ nav{
 
     
 }
-
+.type-of-event-text-cards > div > div > a{
+    height: 100%;
+    width: 100%;
+    border-radius: 696969px;
+    display: inline-block;
+}
 /*//////////////////////////ANIMATION////////////////////////*/
 
 
