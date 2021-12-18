@@ -4,13 +4,19 @@
 .logo{
     height:200px;
     position: relative;
-    left:30px;
+    left:20px;
 }
 .Landing-page-Illustration{
-    width: 36vw;
+    width: 40vw;
     position: relative;
     top:70px;
-    right:59px
+    right:65px
+}
+.Quote{
+    position: relative;
+    top:400px;
+    right:650px;
+    font-size: 20px;
 }
 .Box1{
     box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
@@ -246,6 +252,10 @@ h5{
 }
 .container:hover .overlay{
     opacity:0.8;
+}
+.Overflow{
+    overflow-x: scroll;
+    
 }
 
 
