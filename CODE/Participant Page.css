@@ -39,7 +39,7 @@
     border-radius: 15px;
     background-color: rgb(133, 245, 245);
     position: absolute;
-    top:800px;
+    top:500px;
     left:600px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:100px;
@@ -57,14 +57,14 @@
 .button {
     background-color: burlywood;
     color: black;
-    padding: 20px 30px;
+    padding: 20px 60px;
     margin: 10px 10px;
     text-align: center;
     display: inline-block;
     cursor: pointer;
     border-radius: 16px;
     position: absolute;
-    top:1250px;
+    top:1000px;
     left:800px
 }
 .button:hover{
