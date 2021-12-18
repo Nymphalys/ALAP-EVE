@@ -56,3 +56,52 @@ h5{
     bottom:690px;
     left:200px;
 }
+.box{
+    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
+    width:fit-content;
+    height:fit-content;
+    
+}
+.box:hover{    
+    transform: scale(105%,105%);
+    transition-duration: 0.5s;
+}
+.card1-content{
+    position:relative;
+    top:1000px;
+    right:20px;
+}
+.card1-content1{
+    position: relative;
+    top:140px;
+    left:180px;
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 4px;
+}
+.card2-content1{
+    position: relative;
+    top:240px;
+    left:450px;
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 4px;
+}
+.card2-content{
+    position: relative;
+    top:1100px;
+    left:250px;
+}
+.card3-content{
+    position: relative;
+    top:720px;
+    left:650px;
+}
+.card3-content1{
+    position: relative;
+    bottom:145px;
+    left:850px;
+    opacity: 0.7;
+    font-size: 13px;
+    line-height: 4px;
+}
