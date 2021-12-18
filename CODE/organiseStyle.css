@@ -59,3 +59,256 @@ nav{
     width: clamp(30px, 4vw, 40px);
     height: clamp(30px, 4vw, 40px);
 }
+
+
+/* ///////////////////////////////////Section 1/////////////////////////////////////////////////////////// */
+.circle{
+    position: absolute;
+    display: inline-block;
+    border-radius: 696969px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 0.9vw 0.9vw  lightgray; */
+}
+:root{
+    --show : visible;
+}
+.circle > p,h1 {
+    visibility: var(--show);
+}
+.circle:hover{
+    --show : hidden;
+}
+.circleCreateEvent{
+    box-sizing: border-box;
+    width: 50vw;
+    height: 50vw;
+    background-color: var(--darkPink);
+    top: -5px;
+    left: -16vw;
+    padding-left: 16vw;
+    align-items: flex-start !important;
+}
+.circleCreateEvent .overlay{
+    left: 0vw;
+}
+.circleCreateEvent > h1{
+    font-size: 5vw;
+}
+.circleCreateEvent > p{
+    font-size: 1.5vw;
+}
+.circleLiveEvent{
+    position: relative !important;
+    width: 20vw;
+    height: 20vw;
+    background-color: var(--lightTeal);
+    top: 30vh;
+    left: 35vw;
+    text-align: center;    
+}
+.circleLiveEvent > h1{
+    font-size: 2vw;
+}
+.circleLiveEvent > p{
+    font-size: 0.9vw;
+}
+.circleManageEvent{
+    width: 40vw;
+    height: 40vw;
+    background-color: var(--darkTeal);
+    top: 4vh;
+    right:0vw;
+    color: whitesmoke;
+    text-align: center;
+}
+.circleManageEvent > h1{
+    font-size: 4vw;
+}
+.circleManageEvent > p{
+    font-size: 1vw;
+}
+.overlay{
+    box-sizing: border-box;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 696969px;
+    background-color: rgba(255, 245, 245, 0);
+    position: absolute;
+    z-index: 6969;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circleCreateEvent .overlay{
+    padding-left: 16vw;
+    font-size: 3vw;
+}
+.circleManageEvent .overlay{
+    font-size: 2vw;
+    padding : 0px 5vw;
+}
+.circleLiveEvent .overlay{
+    font-size: 1.8vw;
+}
+:root{
+    --hide : hidden;
+}
+.overlay *{
+    visibility: var(--hide) ;
+    font-family: primary-font ; 
+    margin: 10px 10px;
+
+}
+.overlay:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    --hide : visible !important;
+    --show : hidden !important;
+    transition-duration: 0.7s;
+}
+
+#accessKey{
+    font-size: 2vw;
+    width: 20vw;
+    border: 2px dashed black;
+    border-radius: 69px;
+    padding: 0.2vw 0.2vw;
+}
+#accessKeySubmit{
+    font-size: 2vw;
+    color: var(--darkTeal);
+    border: 2px dashed black;
+    background-color: lightgray;
+    padding: 10px 10px;
+    border-radius: 69px;
+}
+
+
+/*/////////////////////////////////////////////////Section 2////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// ----------------------------------------------------------------------------------------------------------*/
+#createEvent{
+    box-sizing: border-box;
+    width: calc(100vw - 20px);
+    overflow-x: hidden;
+    position: relative;
+
+}
+.circle2{
+    position: relative;
+    display: inline-block;
+    border-radius: 696969px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* box-shadow: 0.9vw 0.9vw  lightgray; */
+}
+:root{
+    --show : visible;
+}
+.circle2 > p,h1 {
+    visibility: var(--show);
+}
+.circle2:hover{
+    --show : hidden;
+}
+.circleOfficialEvent{
+    box-sizing: border-box;
+    width: 50vw;
+    height: 50vw;
+    background-color: var(--darkPink);
+    top: 50vw;
+    left: 60vw;
+    padding-right: 12vw;
+    align-items: flex-end !important;
+}
+.circleOfficialEvent .overlay{
+    left: 0vw;
+}
+.circleOfficialEvent > h1{
+    font-size: 5vw;
+    text-align: right;
+}
+.circleOfficialEvent > p{
+    font-size: 1.5vw;
+}
+.circleClubEvent{
+    width: 30vw;
+    height: 30vw;
+    background-color: var(--lightTeal);
+    top: -25vw;
+    left: 27vw;
+    text-align: center;    
+}
+.circleClubEvent > h1{
+    font-size: 2.8vw;
+}
+.circleClubEvent > p{
+    font-size: 1.5vw;
+}
+.circleMiscEvent{
+    box-sizing: border-box;
+    width: 25vw;
+    height: 25vw;
+    background-color: var(--darkTeal);
+    top: 20vw;
+    right: 0vw;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+.circleMiscEvent > h1{
+    font-size: 2vw;
+}
+.circleMiscEvent > p{
+    font-size: 1.2vw;
+}
+.overlay{
+    box-sizing: border-box;
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 696969px;
+    background-color: rgba(255, 245, 245, 0);
+    position: absolute;
+    z-index: 6969;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circleOfficialEvent .overlay{
+    padding-right: 12.5vw;
+    padding-left: 30px;
+    font-size: 3vw;
+    text-align: right;
+}
+.circleMiscEvent .overlay{
+    font-size: 1vw;
+    padding : 0px 5vw;
+}
+.circleClubEvent .overlay{
+    font-size: 1.8vw;
+}
+:root{
+    --hide : hidden;
+}
+.overlay *{
+    visibility: var(--hide) ;
+    font-family: primary-font ; 
+    margin: 10px 10px;
+
+}
+.overlay:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    --hide : visible !important;
+    --show : hidden !important;
+    transition-duration: 0.7s;
+}
