@@ -1,6 +1,58 @@
 .Landing-page{
     display:flex;
 }
+.logo{
+    height:200px;
+    position: relative;
+    left:30px;
+}
 .Landing-page-Illustration{
-    width: 40vw;
+    width: 36vw;
+    position: relative;
+    top:70px;
+    right:59px
+}
+.Box1{
+    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
+    height: 500px;
+    width: calc( 30vw - 20px );
+    margin: 0px, 15px;
+    background-color:hsl(10, 100%, 91%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:60px;
+    color:rgb(9, 9, 88);
+    text-align:center;
+}
+.Box1:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
+.Box2{
+    box-shadow:0 0px 0px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
+    height: 500px;
+    width: calc( 30vw - 20px );
+    margin: 0px, 15px;
+    background-color:hsl(180, 100%, 30%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:60px;
+    color: white;
+    text-align: center;
+}
+.Box2:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
+p{
+    position: relative;
+    top:170px;
+}
+h4{
+    position: relative;
+    bottom:670px;
+    left:200px;
+}
+h5{
+    position: relative;
+    bottom:690px;
+    left:200px;
 }
