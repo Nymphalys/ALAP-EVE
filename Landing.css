@@ -1,52 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: primary-font, Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family : primary-font;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+:root{
+    --lightPink : rgb(255, 194, 180);
+    --darkPink : #FF8882;
+    --darkTeal : #194350;
+    --lightTeal : #9DBEB9;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
+/*////////////////////////////////// Navbar //////////////////////////////////////////*/
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar div{
+    background-color: var(--lightPink);
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+.superContainer{
+    display: flex;
+    flex-direction: column;
+}
+/* ////////   SECTION 1   ///////////////////////////////////////////////////////////////////////////////////////// */
+
 .Landing-page{
     display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 100vh;
+}
+.illustrations{
+    display: flex;
+    align-items: center;
 }
 .logo{
     margin: 1vw 0vw 0vw 1vw;
 }
 .logo img{
-    width: 15vw;
+    width: clamp(150px,20vw,400px);
 }
 .Landing-page-Illustration{
-    width: 36vw;
-    position: relative;
-    top:70px;
-    right:59px
+    width: clamp(400px, 30vw, 400px);
+}
+.buttonBoxes{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Box1, .Box2{
+    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
+    width: calc( 26vw - 20px );
+    height: calc((400px + 15vw)/2 - 40px);
+    margin: 10px 15px;
+    font-size: 4vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 .Box1{
-    box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
-    height: 500px;
-    width: calc( 26vw - 20px );
-    margin: 0px, 15px;
     background-color:hsl(10, 100%, 91%);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:60px;
-    color:rgb(9, 9, 88);
-    text-align:center;
 }
-.Box1:hover{
-    transform: scale(105%,105%);
-    transition-duration: 2s;
-}
+
 .Box2{
-    box-shadow:0 0px 0px rgba(215,215,215,0.10), 0 0px 20px rgba(0,0,0,0.09) ;
-    height: 500px;
-    width: calc( 26vw - 20px );
-    margin: 0px, 15px;
     background-color:hsl(180, 100%, 30%);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:60px;
-    color: white;
-    text-align: center;
+    color: whitesmoke;
 }
-.Box2:hover{
+
+.buttonBoxes p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonBoxes > div:hover{
     transform: scale(105%,105%);
-    transition-duration: 2s;
+    transition-duration: 0.7s;
 }
-p{
-    position: relative;
-    top:170px;
+
+@media screen and (max-width: 830px) {
+    .Landing-page{
+        flex-direction: column;
+    }
+    .illustrations{
+        flex-direction: column;
+    }
+    .buttonBoxes{
+        flex-direction: row;
+    }
+    .Box1, .Box2{        
+        width: calc( 45vw - 20px );
+    }
 }
+
+/* ////////////////////////// Join Events Section ///////////////////////////////////////////////////////////////// */
+
+
+
 h4{
     position: relative;
     bottom:670px;
@@ -66,6 +172,12 @@ h5{
 .box:hover{    
     transform: scale(105%,105%);
     transition-duration: 0.5s;
+}
+
+
+.cardsPage{
+    width: 100vw;
+    overflow-x: scroll;
 }
 .card1-content{
     position:relative;
