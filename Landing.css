@@ -97,7 +97,7 @@ nav{
     width: clamp(150px,20vw,400px);
 }
 .Landing-page-Illustration{
-    width: clamp(400px, 30vw, 400px);
+    width: clamp(400px, 30vw, 700px);
 }
 .buttonBoxes{
     display: flex;
