@@ -2,9 +2,10 @@
     display:flex;
 }
 .logo{
-    height:200px;
-    position: relative;
-    left:30px;
+    margin: 1vw 0vw 0vw 1vw;
+}
+.logo img{
+    width: 15vw;
 }
 .Landing-page-Illustration{
     width: 36vw;
