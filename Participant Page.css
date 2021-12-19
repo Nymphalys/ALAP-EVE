@@ -172,4 +172,37 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.box-shadow4{
+    box-shadow:5px 10px 10px rgba(215,215,215,0.10),0 10px 20px rgba(0,0,0,0.09) ;
+    height: 300px;
+    width:600px;
+    margin: 10px, 15px;
+    border-radius: 15px;
+    background-color: rgb(133, 245, 245);
+    position: absolute;
+    top:1300px;
+    left:600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:100px;
+    color:black;
+    text-align: center;
+}
+.box-shadow4:hover{
+    transform: scale(105%,105%);
+    transition-duration: 2s;
+}
+.paragraph6{
+    position:absolute;
+    font-size: 35px;
+    left:130px;
+    top:50px;
+    color:black;
+}
+.paragraph7{
+    position:absolute;
+    font-size: 40px;
+    left:140px;
+    top:140px;
+    color:black;
+}
 
