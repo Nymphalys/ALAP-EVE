@@ -13,21 +13,6 @@ document.getElementById("participation_form").innerHTML=localStorage.getItem("pa
 document.getElementById("rules").value=localStorage.getItem("rule");
 document.getElementById("m_link").value=localStorage.getItem("ven");
 
-// document.getElementById("reset").addEventListener('click',function(){
-//     document.getElementById("event_name").value =""
-// document.getElementById("bd").value=""
-// document.getElementById("ed").value=""
-// document.getElementById("bt").value=""
-// document.getElementById("et").value=""
-// document.getElementById("description").innerHTML="hello"
-// document.getElementById("prizes").innerHTML=""
-// document.getElementById("club_name").value=""
-// document.getElementById("sponsor1").innerHTML=""
-// document.getElementById("sponsor2").innerHTML=""
-// document.getElementById("sponsor3").innerHTML=""
-// document.getElementById("participation_form").innerHTML=""
-// document.getElementById("rules").value=""
-// document.getElementById("venue").value="hello"
 
 // })
 

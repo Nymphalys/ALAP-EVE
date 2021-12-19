@@ -1,10 +1,6 @@
 
-// document.getElementById("completed").style.display="none"
-
-// document.getElementById("del1").style.display="none";
 document.getElementById("plus1").addEventListener('click',function(){
     document.getElementById("sponsors").style.height="90px";
-    document.getElementById("del1").style.visibilty="visible";
     document.getElementById("sponsor2").style.visibility="visible";
     document.getElementById("plus1").style.display="none";
 })
@@ -12,11 +8,6 @@ document.getElementById("plus2").addEventListener('click',function(){
     document.getElementById("sponsors").style.height="130px";
     document.getElementById("plus2").style.display="none";
 })
-// document.getElementById("del1").addEventListener('click',function(){
-//     document.getElementById("plus1").style.display="none";
-//     document.getElementById("del1").style.display="none";
-//     document.getElementById("sponsor1").style.display="none";
-// })
 document.getElementById("del2").addEventListener('click',function(){
     document.getElementById("plus2").style.display="none";
     document.getElementById("del2").style.display="none";
@@ -59,6 +50,6 @@ document.getElementById("but").addEventListener('click',function(){
     localStorage.setItem("rule",document.getElementById("rules").value)
     localStorage.setItem("ven",document.getElementById("m_link").value)
 
-    var passcode= Math.floor((Math.random() * 1000000) + 1);
+    var passcode= Math.floor((Math.random() * (999999-100000)) + 100000);
     localStorage.setItem("passc",passcode)
 })
