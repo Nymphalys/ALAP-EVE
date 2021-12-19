@@ -30,6 +30,15 @@
     left:140px;;
     font-size: 15px;
 }
+input{
+    position: relative;
+    bottom:70px;
+    width:400px;height: 30px;
+    border:none;
+    border-bottom:3px solid black;
+    margin-bottom: 8px;
+    background-color: transparent;
+}
 .paragraph1{
     position: absolute;
     top:160px;
