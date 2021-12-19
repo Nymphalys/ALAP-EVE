@@ -77,11 +77,15 @@ nav{
     width: clamp(20px, 3.5vw, 30px);
     height: clamp(20px, 3.5vw, 30px);
 }
+
+/* ///////////////////////////////////Section 1/////////////////////////////////////////////////////////// */
 .superContainer{
     display: flex;
     flex-direction: column;
 }
-/* ///////////////////////////////////Section 1/////////////////////////////////////////////////////////// */
+#organiseEvent{
+    height: 100vw;
+}
 .circle{
     position: absolute;
     display: inline-block;
@@ -103,8 +107,8 @@ nav{
 }
 .circleCreateEvent{
     box-sizing: border-box;
-    width: 50vw;
-    height: 50vw;
+    width: 50vw !important;
+    height: 50vw !important;
     background-color: var(--darkPink);
     top: -5px;
     left: -16vw;
@@ -125,7 +129,7 @@ nav{
     width: 20vw;
     height: 20vw;
     background-color: var(--lightTeal);
-    top: 30vh;
+    top: 25vw;
     left: 35vw;
     text-align: center;    
 }
