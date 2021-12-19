@@ -102,6 +102,7 @@ nav{
 .buttonBoxes{
     display: flex;
     flex-direction: column;
+    height:10rem;
 
 }
 
@@ -110,7 +111,7 @@ nav{
     width: calc( 26vw - 20px );
     height: calc((400px + 15vw)/2 - 40px);
     margin: 10px 15px;
-    font-size: 4vw;
+    font-size: 1.5vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -119,11 +120,13 @@ nav{
 }
 .Box1{
     background-color:hsl(10, 100%, 91%);
+    height:50%
 }
 
 .Box2{
     background-color:hsl(180, 100%, 30%);
     color: whitesmoke;
+    height:50%
 }
 
 .buttonBoxes p{
@@ -224,3 +227,59 @@ h3.card-title{
         font-size: 2vw;
     }
 }
+
+/*//////////////////////////ANIMATION////////////////////////*/
+
+.navbar {
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:2000ms;
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.Landing-page  .illustrations  .Landing-page-Illustration{
+    animation: fadeDown 1500ms forwards;
+    opacity: 0;
+    animation-delay:500ms;
+}
+
+@keyframes fadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }    
+}
+
+.Landing-page .buttonBoxes {
+    animation: fadeLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay:1200ms;
+}
+
+@keyframes fadeLeft {
+    from{
+        opacity: 0;
+        transform: translateX(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
