@@ -102,6 +102,7 @@ nav{
 .buttonBoxes{
     display: flex;
     flex-direction: column;
+    height:10rem;
 
 }
 
@@ -111,7 +112,7 @@ nav{
     /* height: calc((400px + 15vw)/2 - 40px); */
     height: 10rem;
     margin: 10px 15px;
-    font-size: 3rem;
+    font-size: 1.5vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -120,11 +121,13 @@ nav{
 }
 .Box1{
     background-color:hsl(10, 100%, 91%);
+    height:50%
 }
 
 .Box2{
     background-color:hsl(180, 100%, 30%);
     color: whitesmoke;
+    height:50%
 }
 
 .buttonBoxes p{

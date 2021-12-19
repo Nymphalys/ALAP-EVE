@@ -1,33 +1,10 @@
 body {
     background-color: #194350 !important;
     color: #fae4e4;
-    font-family: primary-font, Verdana, Geneva, Tahoma, sans-serif !important;
+    font-family: Montserrat,Roboto, Segoe UI !important;
     margin: 0px;
 }
-a:link {
-    text-decoration: none;
-    color: black;
-}
-  
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-  
-a:hover {
-    text-decoration: none !important;
-    color: black !important;
-}
-  
-a:active {
-    text-decoration: none;
-    color: black;
-}
-@font-face {
-    font-family : primary-font;
-    src: url(fonts/Poppins-Regular.ttf);
-}
-/* ///////////////////////////// Navbar ///////////////////////////////////////////////////////////// */
+
 nav{
     position: fixed;
     bottom: 0vh;
@@ -89,7 +66,6 @@ nav{
     justify-content: center;
     gap:50px;
     padding-top:40px;
-    flex-wrap: wrap;
 }
 
 
@@ -100,7 +76,7 @@ nav{
     display: none;
     display: flex;
     height: 400px;
-    min-width: 400px;
+    width: 20%;
     flex-direction: column;
 }
 
@@ -108,7 +84,7 @@ nav{
     background-color: #ff8882;
     border-radius: 100%;
     text-align: center;
-    width:50%;
+    width:65%;
     height:50%;
     margin: auto;
     line-height: 12;
@@ -119,6 +95,7 @@ nav{
   
 .type-of-event-text-cards .worshops-card .description-box{
     background-color: #fff;
+    display: flex;
     height: 180px;
     width: 100%;
     border-radius: 2%;
@@ -132,7 +109,7 @@ nav{
 .type-of-event-text-cards .competitions-card{
     display: flex;
     height: 400px;
-    width: 400px;
+    width: 20%;
     flex-direction: column;
 }
 
@@ -140,7 +117,7 @@ nav{
     background-color: #9dbeb9;
     border-radius: 100%;
     text-align: center;
-    width:50%;
+    width:65%;
     height:50%;
     margin: auto;
     line-height: 12;
@@ -148,6 +125,7 @@ nav{
 
 .type-of-event-text-cards .competitions-card .description-box{
     background-color:#fff;
+    display: flex;
     height: 180px;
     width: 100%;
     border-radius: 2%;
@@ -161,7 +139,7 @@ nav{
 .type-of-event-text-cards .guest-lectures-card{
     display: flex;
     height: 400px;
-    min-width: 400px;
+    width: 20%;
     flex-direction: column;
 }
 
@@ -169,13 +147,14 @@ nav{
     background-color: #ffc2b4;
     border-radius: 100%;
     text-align: center;
-    width:50%;
+    width:65%;
     height:50%;
     margin: auto;
     line-height: 12;
 }
 .type-of-event-text-cards .guest-lectures-card .description-box{
     background-color:#fff;
+    display: flex;
     height: 180px;
     width: 100%;
     border-radius: 2%;
