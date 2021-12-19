@@ -14,6 +14,8 @@ document.getElementById("rules").value=localStorage.getItem("rule");
 document.getElementById("m_link").value=localStorage.getItem("ven");
 
 
+// })
+
 document.getElementById("plus1").addEventListener('click',function(){
     document.getElementById("sponsors").style.height="90px";
     document.getElementById("del1").style.visibilty="visible";

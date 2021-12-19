@@ -81,7 +81,8 @@ nav{
 
 .type-of-event-text h1{
     margin: 0px;
-    font-weight: 100;
+    font-size: 5vw;
+    color: whitesmoke;
 }
 
 .type-of-event-text-cards{
