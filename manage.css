@@ -45,7 +45,10 @@
     font-size:100px;
     color:black;
     text-align: center;
-
+}
+#registered_user{
+    font-size: 30px;
+    text-align: left;
 }
 .box-shadow2:hover{
     transform: scale(105%,105%);
