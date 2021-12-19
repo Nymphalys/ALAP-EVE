@@ -108,9 +108,10 @@ nav{
 .Box1, .Box2{
     box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
     width: calc( 26vw - 20px );
-    height: calc((400px + 15vw)/2 - 40px);
+    /* height: calc((400px + 15vw)/2 - 40px); */
+    height: 10rem;
     margin: 10px 15px;
-    font-size: 4vw;
+    font-size: 3rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -224,3 +225,59 @@ h3.card-title{
         font-size: 2vw;
     }
 }
+
+/*//////////////////////////ANIMATION////////////////////////*/
+
+.navbar {
+    animation: fadeUp 1000ms forwards;
+    opacity: 0;
+    animation-delay:2000ms;
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+.Landing-page  .illustrations  .Landing-page-Illustration{
+    animation: fadeDown 1500ms forwards;
+    opacity: 0;
+    animation-delay:500ms;
+}
+
+@keyframes fadeDown {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }    
+}
+
+.Landing-page .buttonBoxes {
+    animation: fadeLeft 1200ms forwards;
+    opacity: 0;
+    animation-delay:1200ms;
+}
+
+@keyframes fadeLeft {
+    from{
+        opacity: 0;
+        transform: translateX(+20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+} 
+
