@@ -4,6 +4,85 @@ body{
     background-repeat:no-repeat;
     background-attachment: fixed;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: primary-font, Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family : overlay-font;
+    src: url(fonts/orange\ juice\ 2.0.ttf);
+}
+@font-face {
+    font-family : primary-font;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+:root{
+    --lightPink : rgb(255, 194, 180);
+    --darkPink : #FF8882;
+    --darkTeal : #194350;
+    --lightTeal : #9DBEB9;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
+/*////////////////////////////////// Navbar //////////////////////////////////////////*/
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar div{
+    background-color: whitesmoke;
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
 a{
     display: flex;
     height: 40px;
@@ -28,6 +107,6 @@ a{
 }
 h1{
     position:relative;
-    top: 200px;
+    top: 10vw;
     text-align: center;
 }
