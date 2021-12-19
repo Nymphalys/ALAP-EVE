@@ -1,3 +1,44 @@
+/*////////////////////////////////// Navbar //////////////////////////////////////////*/
+nav{
+    position: fixed;
+    bottom: 0vh;
+    right: 0vw;
+    width: fit-content;
+    z-index: 696969696969696969;
+}
+.navbar{
+    display: flex;
+    width: 20vw;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 69vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar div{
+    background-color: whitesmoke;
+    border-radius: 69vw;
+    width: clamp(35px, 5vw, 50px);
+    height: clamp(35px, 5vw, 50px);
+}
+.navbar > div:hover{
+    background-color: whitesmoke;
+    transition-duration: 0.35s;
+}
+.navbar a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width: clamp(20px, 3.5vw, 30px);
+    height: clamp(20px, 3.5vw, 30px);
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+
 .box-shadow1{
     box-shadow:0 0px 10px rgba(215,215,215,0.10), 0 6px 10px rgba(0,0,0,0.09) ;
     height: 550px;
