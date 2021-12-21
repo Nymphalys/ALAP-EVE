@@ -12,4 +12,3 @@ Landing-Page
 
 ![VIEW5](https://user-images.githubusercontent.com/86922002/146876329-1fb3cfb0-c578-4f68-ac02-823622dd15e2.png)
 
-![PHONE VIEW 2](https://user-images.githubusercontent.com/86922002/146876420-a9e76be5-068c-4ec1-a762-d395b82ff891.jpeg)
